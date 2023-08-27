@@ -13,12 +13,11 @@
         }
 
     ],
-    "routes":[
-        {
-            "src ": "/(.*)",
-            "dest":"project/wsgi.py"
-        }
-
-    ]
+    "routes": [
+      {
+      "src": "/(.*)",
+      "dest":"project/wsgi.py"
+      }
+  ]
 
 }
